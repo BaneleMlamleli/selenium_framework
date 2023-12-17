@@ -1,0 +1,20 @@
+With this Framework I want to showcase and implement the following features
+    - Support all famous browsers for test execution
+    - Support test execution for different environments such as Testing, Staging, and Production
+    - Execution environment and browser should be configured in file
+    - Logging of all the steps
+    - Easy to understand execution report
+    - Should support common features of Web application such as Alert, IFrames, etc
+    - Test data and configuration should be driven by Properties files
+    - Supports CI-CD process
+
+Tools and Technologies
+    - VScode
+    - Java
+    - Selenium
+    - Maven
+    - Cucumber BDD
+    - TestNG
+    - Log4J2
+    - Extent report
+    - AShot for screenshot
