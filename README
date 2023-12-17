@@ -13,8 +13,9 @@ Tools and Technologies
     - Java
     - Selenium
     - Maven
-    - Cucumber BDD
+    - Cucumber BDD (probably going to use TestNG)
     - TestNG
     - Log4J2
+    - Git (using Git flow)
     - Extent report
     - AShot for screenshot
