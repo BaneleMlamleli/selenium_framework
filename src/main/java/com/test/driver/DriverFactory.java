@@ -11,7 +11,7 @@ public class DriverFactory {
     ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>();
 
     private DriverFactory() {
-
+        // private constructor so that you cannot create the object of this class anywhere else
     }
     
     private static DriverFactory driverFactoryInstance = new DriverFactory();
