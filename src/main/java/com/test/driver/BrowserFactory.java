@@ -9,6 +9,9 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.safari.SafariOptions;
 
+/**
+ * Logic to select and create the browser object
+*/
 public class BrowserFactory {
     public WebDriver createBrowserInstance(String browserName) {
         WebDriver driver = null;
