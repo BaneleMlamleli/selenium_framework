@@ -1,4 +1,4 @@
-package com.report;
+package com.test.reports;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

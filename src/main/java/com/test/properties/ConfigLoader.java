@@ -1,4 +1,4 @@
-package com.test.property;
+package com.test.properties;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -10,7 +10,6 @@ import org.apache.logging.log4j.Logger;
 
 import com.test.constants.Constants;
 import com.test.constants.ExtentFactory;
-
 
 public class ConfigLoader {
 
@@ -45,6 +44,7 @@ public class ConfigLoader {
 	public static ConfigLoader getInstnace() {
 		return instance;
 	}
+	
 	
 	public String getPropertyValue(String key) {
 		return prop.getProperty(key);
